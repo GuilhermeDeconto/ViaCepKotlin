@@ -3,10 +3,10 @@ package com.example.viacepkotlin.network.module.client
 import android.content.Context
 import android.net.ConnectivityManager
 import android.os.Build
-import com.example.viacepkotlin.network.Network
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import mezzari.torres.lucas.network.source.Network
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import java.io.IOException

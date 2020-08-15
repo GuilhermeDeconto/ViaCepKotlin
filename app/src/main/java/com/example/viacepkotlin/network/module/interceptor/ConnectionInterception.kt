@@ -1,8 +1,8 @@
 package com.example.viacepkotlin.network.module.interceptor
 
-import com.example.viacepkotlin.network.Network
 import com.example.viacepkotlin.network.module.client.ConnectionModule
-import com.example.viacepkotlin.network.promise.BaseNetworkPromise
+import mezzari.torres.lucas.network.source.Network
+import mezzari.torres.lucas.network.source.promise.BaseNetworkPromise
 import retrofit2.Call
 import retrofit2.Response
 

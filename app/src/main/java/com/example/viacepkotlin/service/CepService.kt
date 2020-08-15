@@ -1,8 +1,9 @@
 package com.example.viacepkotlin.service
 
 import com.example.viacepkotlin.model.Cep
-import com.example.viacepkotlin.network.Network
-import com.example.viacepkotlin.network.promise.NetworkPromise
+import mezzari.torres.lucas.network.source.Network
+import mezzari.torres.lucas.network.source.promise.NetworkPromise
+
 
 /**
  * @Author Guilherme Dall`Agnol Deconto
@@ -11,7 +12,7 @@ import com.example.viacepkotlin.network.promise.NetworkPromise
 class CepService {
     private val api: ICepAPI = Network.build()
 
-    fun getCep(cep: String): NetworkPromise<Cep>{
+    fun getCep(cep: String): NetworkPromise<Cep> {
         return NetworkPromise {
             api.getCep(cep).enqueue(this)
         }

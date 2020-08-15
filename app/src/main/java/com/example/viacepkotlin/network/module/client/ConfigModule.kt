@@ -1,6 +1,6 @@
 package com.example.viacepkotlin.network.module.client
 
-import com.example.viacepkotlin.network.Network
+import mezzari.torres.lucas.network.source.Network
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import java.util.concurrent.TimeUnit

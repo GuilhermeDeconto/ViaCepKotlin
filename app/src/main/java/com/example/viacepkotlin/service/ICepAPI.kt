@@ -2,7 +2,7 @@ package com.example.viacepkotlin.service
 
 import com.example.viacepkotlin.BuildConfig
 import com.example.viacepkotlin.model.Cep
-import com.example.viacepkotlin.network.annotation.Route
+import mezzari.torres.lucas.network.annotation.Route
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Path
